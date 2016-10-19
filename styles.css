@@ -1,0 +1,107 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #fff;
+  font-family: 'Oxygen', sans-serif;
+
+  
+}
+ 
+-->
+/** HEADER **/
+#header-nav {
+  height: 150px;
+  background-color: #80aaff;
+  border-radius: 0;
+  border: 0;
+}
+
+#logo-img {
+  background: url('https://upload.wikimedia.org/wikipedia/en/f/fd/JadavpurLogo.gif') no-repeat;
+  width: 100px;
+  height: 98px;
+  box-sizing:border_box;
+  margin: 10px 15px 10px 0;
+}
+
+.navbar-brand {
+  padding-top: 55px;
+}
+.navbar-brand h1 { /* university name */
+  font-family: 'Lora', serif;
+  color: #fff;
+  font-size: 4.0em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;height: 500px;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+.menu {clear: both;}
+.menu a{text-decoration: none;color: #fff;}
+.menu ul {list-style: none;margin: 0;padding: 0;}
+.menu li {width: 100px;float: left;text-align: center;
+	      border-right: 1px solid white;background-color: #444444;height: 30px;line-height: 30px;position: relative;}
+.menu li ul li{float: none;width: 150px;text-align: left;border-top: 1px solid white;
+            padding-left: 5px;}
+
+.menu li:hover {background-color: maroon;}
+.menu li ul {visibility: hidden;top: 30px;position: absolute;}
+.menu li:hover ul{visibility: visible;}
+ 
+.container .jumbotron {
+    box-sizing:border_box;
+    margin: 0px;
+    padding: 0px;
+  background:url("http://cdn.htcampus.com/cmsmedia/cache/659x439-2/uploads/files/None/Department-Bulding.jpg");
+ background-repeat: no-repeat;
+ background-size: 1200px 500px;
+height: 500px; 
+  }
+
+
+
+/* FOOTER */
+.panel-footer {
+  margin-top: 30px;
+  padding-top: 0px;
+  padding-bottom: 15px;
+  background-color: #222;
+  border-top: 0;
+}
+.panel-footer div.row {
+  margin-bottom: 30px;
+} 
+
+#Contacts, #address{
+  line-height: 2;
+  float:left;
+  padding-left:100px;
+  margin-right:200px;
+}
+#Other-Links ul {
+	text-decoration: none;
+	list-style: none;
+	text-align: left;
+}
+#Contacts > span, #address > span {
+  font-size: 1.3em;
+}
+#address p {
+  color: #557c3e;
+  font-size: .8em;
+  line-height: 1.8;
+}
+
+/* END FOOTER */
+
+
+
+/* HOME PAGE */
+
+/* END HOME PAGE */
+
